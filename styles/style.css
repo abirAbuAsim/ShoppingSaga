@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Eric Meyer's Reset CSS v2.0 
+(http://meyerweb.com/
+eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of Reset Code */
+
+/*Our own styles */
+body{
+	background:#CCC;
+}
+
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+
+.header_wrapper {
+	width:1000px;
+	height:100px;
+	background-color:#FFF;
+}
+
+#navbar{
+	width:1000px;
+	height:50px;
+	background:#C03;
+	color:#FFF;
+}
+
+.content_wrapper{
+	width:1000px;
+	height:600px;
+	background:#0CF;
+}
+
+#right_content{
+	width:750px;
+	height:600px;
+	background:#936;
+	float:right;	
+}
+
+#left_sidebar{
+	width:250px;
+	height:600px;
+	background:#396;
+	float:left;	
+}
+
+.footer{
+	width:1000px;
+	height:100px;
+	background:#990;
+	color:#FFF;
+	clear:both;
+}
